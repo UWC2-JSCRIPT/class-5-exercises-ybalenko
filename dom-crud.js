@@ -11,6 +11,7 @@ pE.insertAdjacentElement('afterend', newE);
 // log to the console
 const img = document.getElementsByTagName('img')[0];
 const colorImg = img.getAttribute('data-color')
+console.log(colorImg)
 
 // Update the third <li> item ("Turbocharged"), 
 // set the class name to "highlight"
